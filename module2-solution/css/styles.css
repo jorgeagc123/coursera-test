@@ -74,7 +74,19 @@ p {
   margin-left: auto;
   color: black; 
   padding-left: 15px;
+
+}
+
+p.Chicken{
   padding-right: 15px;
+}
+
+p.Beef{
+  padding-right: 20px;
+}
+
+p.Sushi{
+  padding-right: 20px;
 }
 
 /* Simple Responsive Framework. */
