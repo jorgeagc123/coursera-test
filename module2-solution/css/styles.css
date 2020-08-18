@@ -7,7 +7,7 @@
   margin-left: 0px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  
+
 }
 h1 {
   font-size: 175%;
@@ -136,6 +136,19 @@ p.Sushi{
   .col-lg-12 {
     width: 100%;
   }
+  
+  section.Chicken{
+    margin-left: 7.5%;
+    margin-right: 2.5%;
+  }
+  section.Beef{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  section.Sushi{
+    margin-left: 2.5%;
+    margin-right: 7.5%;
+  }
   h1{
     margin-top: 40px;
   }
@@ -187,8 +200,18 @@ p.Sushi{
   .col-md-12 {
     width: 100%;
   }
+  section.Chicken{
+    margin-left: 6.66%;
+    margin-right: 3.33%;
+  }
+  section.Beef{
+    margin-left: 3.33%;
+    margin-right: 6.66%;
+  }
   section.Sushi{
-    width: 95%;
+    width: 93.33%;
+    margin-left: auto;
+    margin-right: auto;
   }
    h1{
     margin-top: 50px;
