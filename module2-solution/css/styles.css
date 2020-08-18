@@ -10,7 +10,6 @@
   
 }
 h1 {
-  margin-top: 50px;
   font-size: 175%;
   font-family: Times New Roman, Times, serif;
   font-style: italic;
@@ -137,6 +136,12 @@ p.Sushi{
   .col-lg-12 {
     width: 100%;
   }
+  h1{
+    margin-top: 40px;
+  }
+  .row{
+    margin-top: 60px;
+  }
 
 }
 
@@ -185,6 +190,12 @@ p.Sushi{
   section.Sushi{
     width: 95%;
   }
+   h1{
+    margin-top: 50px;
+  }
+  .row{
+    margin-top: 50px;
+  }
 }
 
 /********** Small devices only **********/
@@ -228,6 +239,12 @@ p.Sushi{
   }
   .col-sm-12 {
     width: 100%;
+  }
+   h1{
+    margin-top: 60px;
+  }
+  .row{
+    margin-top: 40px;
   }
 }
 
