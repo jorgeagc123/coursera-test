@@ -1,0 +1,166 @@
+body {
+  font-size: 16px;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #3F027E;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  color:yellow;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+h2 {
+  color: black;
+  font-size: 175%;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h3{
+  border: 1px solid black;
+  width: 100%;
+  height: 30px;
+  font-size: 125%;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+h3.Chicken{
+  background-color: #DD781A;
+}
+
+h3.Beef{
+  background-color: #CC390E;
+}
+
+h3.Sushi{
+  background-color: #0DA20B;
+}
+
+section{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  position: relative;
+  color: #DADADA;
+}
+
+section.Chicken{
+  background-color: #DDB895;
+}
+
+section.Beef{
+  background-color: #D19F91;
+}
+
+section.Sushi{
+  background-color: #73A073;
+}
+
+p {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black; 
+  padding-left: 15px;
+
+}
+
+p.Chicken{
+  padding-right: 15px;
+}
+
+p.Beef{
+  padding-right: 15px;
+}
+
+p.Sushi{
+  padding-right: 15px;
+}
+
+/* END HOME PAGE */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+}
+
+
+
